@@ -1,3 +1,13 @@
+Mac Pass: 
+Alone
+Alone215
+
+Windows Pass:
+runneradmin
+P@ssw0rd!
+
+
+
 # RDE
 # Reverse Windows RDP for GitHub Actions
 Enable RDP access on GitHub Actions VMs for general use.
