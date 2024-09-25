@@ -11,12 +11,6 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Preparing environment...
-      env:
-        NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
-        RDP_PASSWORD: ${{ secrets.RDP_PASSWORD }}
-
     - name: Install Homebrew1
       run: |
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
