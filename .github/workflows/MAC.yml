@@ -15,10 +15,10 @@ jobs:
       run: |
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-    - name: Install xRDP
+    - name: Install freerdp
       run: |
-        brew install xrdp
-        sudo brew services start xrdp
+        brew install freerdp
+        sudo brew services start freerdp
 
     - name: Set RDP Password
       run: |
