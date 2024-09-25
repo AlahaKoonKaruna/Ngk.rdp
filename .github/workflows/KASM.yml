@@ -39,6 +39,6 @@ jobs:
         curl -s http://localhost:4040/api/tunnels | jq '.tunnels[0].public_url'
 
     - name: Keep session alive
-    run: |
+      run: |
         echo "Keeping session alive... Press Ctrl+C to stop the runner."
         tail -f /dev/null
